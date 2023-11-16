@@ -1,0 +1,543 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+}
+
+.featured-videos {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  font-family: "Marcellus", serif;
+  font-size: 2rem;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+
+.daisylogo {
+  width: 60px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+.big_img {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(85%);
+}
+
+.big_img h1 {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat", serif;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_c {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Montserrat", serif;
+  padding: 10%;
+}
+
+.about_c p {
+  width: 30%;
+}
+
+.about_c p {
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.headshot {
+  width: 30%;
+  border-radius: 50px;
+}
+
+.aboutdays {
+  font-size: 3rem;
+  font-family: "Montserrat", serif;
+  text-align: center;
+}
+
+button {
+  background: transparent;
+  border: none !important;
+}
+
+.house_picture {
+  width: 40%;
+  margin-right: 5%;
+}
+
+.feature {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", serif;
+}
+
+.all_houses {
+  width: 40%;
+  height: 340px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+
+.testimonials {
+  display: flex;
+  font-family: "Montserrat", serif;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #f1f1f1;
+  padding: 5%;
+}
+
+.text-t {
+  width: 30%;
+  margin-left: 30px;
+}
+
+.big-t-text {
+  border-right: 1px solid gray;
+  padding-right: 30px;
+}
+
+.neighborhoods {
+  background-color: #1a1a1a;
+  display: flex;
+  color: white;
+  font-family: "Montserrat", serif;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.neighbor_img {
+  width: 300px;
+  margin: 20px;
+}
+
+.nb_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nb {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", serif;
+  background-color: #000000;
+  color: white;
+  height: 100vh;
+  justify-content: center;
+}
+
+.contacts-button {
+  color: white;
+  border: 2px white solid !important;
+  padding: 0 50px;
+}
+
+.contacts h1 {
+  border-bottom: 1px white solid;
+  padding-bottom: 30px;
+}
+
+.about_me_button {
+  color: black;
+  border: 2px black solid !important;
+  padding: 0 40px;
+}
+
+.about_me_button p {
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+}
+
+.about_c div {
+  width: 50%;
+}
+
+.about_des {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.t_button {
+  color: black;
+  border: 2px black solid !important;
+  padding: 5px 60px;
+}
+
+
+button:hover {
+  background-color: #D3D3D3;
+}
+
+.ad {
+  font-family: "Montserrat", serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.aboutp {
+  font-family: "Montserrat", serif;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2%;
+
+
+}
+
+.aboutp1 {
+  font-family: "Montserrat", serif;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2%;
+  border-radius: 20px;
+  box-shadow: 9px 9px 18px #d9d9d9,
+    -9px -9px 18px #ffffff;
+
+}
+
+.portfolio-house-img {
+  width: 80vh;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+}
+
+.portfolio-stuff {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  background: #ffffff;
+  box-shadow: 9px 9px 18px #d9d9d9,
+    -9px -9px 18px #ffffff;
+}
+
+.cons {
+
+  display: flex;
+  color: black;
+  border: 2px black solid !important;
+  justify-content: center;
+  font-family: "Montserrat", serif;
+
+
+}
+
+.testimonials_page div {
+
+  margin-bottom: 30px;
+  padding: 20px;
+
+}
+
+.testimonials_page1 div {
+  box-shadow: 9px 9px 18px #d9d9d9,
+    -9px -9px 18px #ffffff;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.cons1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", serif;
+
+}
+
+.conpt {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", serif;
+}
+
+.testimonials_page {
+  font-family: "Montserrat", serif;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 5%;
+
+}
+
+.testimonials_page1 {
+  font-family: "Montserrat", serif;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 5%;
+
+}
+
+.neighbor_txt {
+  font-size: 5rem !important;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 33px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 6px 0;
+
+  transition: 0.4s;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  transform: translate(0, 8px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  transform: translate(0, -8px) rotate(45deg);
+}
+
+@media only screen and (max-width: 600px) {
+
+  .big_img {
+    width: 100vw
+  }
+
+  .logo {
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+
+  .daisylogo {
+    width: 40px;
+  }
+
+  .options {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .nb_div {
+    flex-direction: column;
+  }
+
+  .t_button {
+    padding: 0
+  }
+
+  .about_des {
+    font-size: 1.3rem !important;
+
+
+  }
+
+  .about_c {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 0;
+  }
+
+  about_c p {
+    width: 100vw !important;
+  }
+
+  .headshot {
+    width: 80%;
+    border-radius: 25%;
+  }
+
+  .aboutdays p {
+    margin-bottom: 20px;
+
+  }
+
+  .aboutdays {
+    font-size: 2.5rem;
+  }
+
+  .neighborhoods {
+    height: 150vh;
+  }
+
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .big-t-text {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .text-t {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .t_button {
+    width: 80%;
+  }
+
+  .contacts p {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .contacts-button {
+    padding: 0;
+  }
+
+  .contacts-button p {
+    padding: 0;
+    margin: 10px;
+  }
+
+  .all_houses {
+    height: 400px;
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  .feature {
+    flex-direction: column;
+  }
+
+  .feature img {
+    width: 70%;
+  }
+
+  .portfolio-house-img {
+    width: 40vh;
+  }
+
+  .testimonials_page {
+    padding: 5%;
+  }
+
+  .about_c div {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .headshot {
+    border-radius: 10px;
+  }
+}
