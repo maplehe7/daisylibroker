@@ -60,7 +60,9 @@ body {
   z-index: -1;
   filter: brightness(85%);
 }
-
+.about-me p{
+  margin: 0;
+}
 .big_img h1 {
   display: flex;
   position: absolute;
@@ -466,7 +468,7 @@ button:hover {
   }
 
   .neighborhoods {
-    height: 150vh;
+    height: 250vh;
   }
 
   .testimonials {
